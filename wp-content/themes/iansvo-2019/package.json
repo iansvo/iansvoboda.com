@@ -1,0 +1,10 @@
+{
+  "name": "iansvoboda.com",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Ian Svoboda",
+  "license": "MIT",
+  "dependencies": {
+    "normalize-css": "^2.3.1"
+  }
+}

@@ -1,0 +1,16 @@
+.l-section {
+	@include container();
+	overflow: hidden;
+	padding-bottom: 4rem;
+	padding-top: 4rem;
+	position: relative;
+	
+	&--lg {
+		padding-bottom: 8rem;
+		padding-top: 8rem;
+	}
+	
+	&--show-overflow {
+		overflow: visible;
+	}
+}

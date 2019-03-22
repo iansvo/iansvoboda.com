@@ -1,0 +1,18 @@
+.c-card {
+	@include hover-bars();
+	border: 2px solid $brown;
+	padding: 1rem;
+	
+	&_title {
+		display: block;
+		margin-bottom: .5em;
+	}
+	
+	&_text {
+		font-size: .9em;
+		
+		@media (min-width: $screen-tablet) {
+			font-size: .75em;
+		}
+	}
+}

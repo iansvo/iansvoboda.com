@@ -1,0 +1,24 @@
+.c-section-header {
+	text-align: center;
+	
+	@media (min-width: $screen-md) {
+		text-align: left;
+	}
+	
+	&--right {
+		@media (min-width: $screen-md) {
+			text-align: right;
+		}		
+	}
+	
+	&--center {
+		@media (min-width: $screen-md) {
+			text-align: center;
+		}		
+	}	
+	
+	&_title {
+		@include interpolate(font-size, $screen-md, $screen-hd, 35px, 80px);
+		margin-top: 0;		
+	}	
+}

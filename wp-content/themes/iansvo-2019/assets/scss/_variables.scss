@@ -1,0 +1,39 @@
+// Colors
+
+$white: #fff;
+$black: #000;
+$offblack: #030303;
+$offwhite: #fefefe;
+$paper: #f5f4e9;
+$teal: #139DA0;
+$seafoam: #73c0bc;
+$slate: #3A5D61;
+$brown: #443519;
+$lime: #C1CF2F;
+$light-blue: #9BD9E7;
+$smoke: #303030;
+
+// Breakpoints
+// Use as needed
+$screen-sm: 0px;
+$screen-sm-max: 639px;
+$screen-md: 640px;
+$screen-md-max: 767px;
+$screen-tablet: 768px;
+$screen-tablet-max: 1023px;
+$screen-lg: 1024px;
+$screen-lg-max: 1199px;
+$screen-xl: 1200px;
+$screen-xl-max: 1599px;
+$screen-xxl: 1600px;
+$screen-xxl-max: 1919px;
+$screen-hd: 1920px;
+
+$body-background: $paper;
+$body-font-family: "brother-1816", "Futura PT", -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+$body-text-color: $smoke;
+$body-font-weight: 400;
+$body-line-height: 1.4;
+
+$link-color: darken($teal, 15%);
+

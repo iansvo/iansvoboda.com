@@ -1,0 +1,93 @@
+@keyframes wordmark-color-pulse {
+	0% {
+		color: $smoke;
+	}
+
+	25% {
+		color: $teal;
+	}	
+	
+	50% {
+		color: $slate;
+	}
+	
+	75% {
+		color: $teal;
+	}	
+}
+
+.c-header {
+	@include container();
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+	padding-bottom: .5rem;
+	padding-top: .5rem;
+	
+	@media (min-width: $screen-md) {
+		flex-wrap: nowrap;
+	}
+
+	@media (min-width: $screen-tablet) {
+		margin-bottom: 4rem;
+	}
+	
+	// TODO: Add Nav Styles
+	&_nav {
+		@include interpolate(font-size, $screen-md, $screen-hd, 14px, 24px);		
+	}
+
+	&_menu {
+		align-items: center;
+		display: flex;
+		list-style: none;
+		padding-left: 0;
+		
+		li {
+			margin: .25em;
+			
+			a {
+				border-color: transparent;
+				color: $body-text-color;
+				font-weight: bold;
+				padding-left: .25em;
+				padding-right: .25em;
+				
+				&:hover {
+					border-color: $teal;
+				}
+			}
+		}
+	}
+	
+	&_wordmark {
+		@include interpolate(font-size, $screen-md, $screen-hd, 28px, 64px);
+		//animation: 30s wordmark-color-pulse ease-out 3s infinite;
+		border-bottom: none;
+		float: left;
+		font-weight: 700;
+		line-height: 1.2;
+		margin-bottom: 1rem;
+		margin-right: 1rem;
+		text-transform: uppercase;
+		transition: color 500ms ease-out;
+		
+		@media (min-width: $screen-md) {
+			margin-bottom: 0;
+		}
+		
+	}
+	
+	&_text {
+		@include gradient-text();
+	}
+	
+	&_tagline {
+		color: $body-text-color;
+		font-size: .42em;
+		font-weight: 400;
+		text-transform: none;
+	}
+}

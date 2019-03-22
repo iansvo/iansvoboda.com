@@ -1,0 +1,76 @@
+.u-background {
+	&--teal {
+		background-color: $teal;
+	}
+	
+	&--seafoam {
+		background-color: $seafoam;
+	}
+	
+	&--smoke {
+		background-color: $smoke;
+		color: $white;
+	}
+}
+
+.u-text {
+	&--left {
+		text-align: left;
+	}
+	
+	&--center {
+		text-align: center;
+	}
+	
+	&--right {
+		text-align: right;
+	}
+}
+
+.u-add-m {
+	margin-bottom: 4rem;
+	margin-top: 4rem;
+	
+	&--top {
+		margin-top: 4rem;
+	}
+	
+	&--bottom {
+		margin-bottom: 4rem;
+	}
+}
+
+.u-add-p {
+	padding-bottom: 4rem;
+	padding-top: 4rem;
+	
+	&--top {
+		padding-top: 4rem;
+	}
+	
+	&--bottom {
+		padding-bottom: 4rem;
+	}
+}	
+
+.u-remove-p {
+    padding: 0 0;
+    
+    &--top {
+        padding-top: 0;
+    }
+    
+    &--bottom {
+        padding-bottom: 0;
+    }
+    
+    &--vertical {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    
+    &--horizontal {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
