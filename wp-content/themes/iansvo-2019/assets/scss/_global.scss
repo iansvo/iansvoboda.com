@@ -90,15 +90,11 @@ h5,
 	@include headline-5();
 }
 
-.container {
-	@include container();
-}
-
-.circle-image {
+.u-circle {
 	border-radius: 100%;
 }
 
-.list {
+.c-list {
 	&--no-bullets {
 		padding-left: 0;
 		

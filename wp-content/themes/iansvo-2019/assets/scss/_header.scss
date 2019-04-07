@@ -34,7 +34,6 @@
 		margin-bottom: 4rem;
 	}
 	
-	// TODO: Add Nav Styles
 	&_nav {
 		@include interpolate(font-size, $screen-md, $screen-hd, 14px, 24px);		
 	}

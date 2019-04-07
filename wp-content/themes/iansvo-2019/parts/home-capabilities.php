@@ -2,7 +2,7 @@
 	<h2 class="c-capabilities_headline">
 	 	I MAKE:
 	</h2>
-	<ul class="list--cards" aria-label="Things I Make">
+	<ul class="c-list--cards" aria-label="Things I Make">
 		<li class="c-card">
 			<strong class="c-card_title">
 				WordPress Websites
@@ -40,7 +40,7 @@
 	<h2 class="c-capabilities_headline">
 		I ALSO:
 	</h2>		  	
-	<ul class="list--cards" aria-label="Things I Also Do">
+	<ul class="c-list--cards" aria-label="Things I Also Do">
 		<li class="c-card">
 			<strong class="c-card_title">
 				Write

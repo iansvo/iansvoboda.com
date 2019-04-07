@@ -1,5 +1,17 @@
-<aside id="work-together" class="l-section c-triangle-container--top">
-	<div class="c-triangle"></div>
+<?php 
+    $show_triangle = apply_filters('work_show_triangle', true);
+    $classes = [
+        'l-section'
+    ];
+    
+    if( $show_triangle ) {
+        $classes[] = 'c-triangle-container--top';
+    }
+?>
+<aside id="work-together" class="<?= implode(' ', $classes); ?>">
+    <?php if( $show_triangle ) : ?>
+        	<div class="c-triangle"></div>
+	<?php endif; ?>
   	<header class="c-section-header c-section-header--center">
 		<h2 class="c-section-header_title">
 		 	LETS <strong>WORK TOGETHER</strong>

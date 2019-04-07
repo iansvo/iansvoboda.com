@@ -14,3 +14,11 @@
 		overflow: visible;
 	}
 }
+
+.l-container {
+    @include container();
+    
+    &--sm {
+        @include container($screen-tablet);
+    }
+}

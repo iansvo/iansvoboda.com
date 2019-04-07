@@ -71,7 +71,7 @@
 }
 
 @mixin headline-5() {
-	@include interpolate(font-size, $screen-md, $screen-hd, 22px, 45px);
+    @include interpolate(font-size, $screen-md, $screen-hd, 22px, 45px);
 }
 
 
