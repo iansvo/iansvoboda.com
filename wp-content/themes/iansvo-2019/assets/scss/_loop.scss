@@ -1,0 +1,38 @@
+.c-loop {
+    margin-bottom: 3rem;
+    margin-left: 0;
+    
+    @media (min-width: $screen-md) {
+        margin-bottom: 6rem;
+    }    
+}
+
+.c-loop-item {
+    margin-bottom: 3rem;
+    
+    @media (min-width: $screen-md) {
+        margin-bottom: 6rem;
+    }
+    
+    &_title {
+        font-weight: bold;
+        
+        a {
+            color: inherit;
+            border-bottom: none;
+            
+            &:hover {
+                animation: 10s color-pulse ease-in-out 0s infinite;
+                color: $link-color;
+            }
+        }
+    }
+    
+    &_footer {
+        font-size: .8em;
+    }
+    
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

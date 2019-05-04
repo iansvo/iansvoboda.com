@@ -25,10 +25,15 @@
 @import 'text';
 @import 'section-header';
 @import 'triangle';
+@import 'forms';
+@import 'loop';
+@import 'components';
 
 // Sections
 @import 'header';
 @import 'footer';
+@import 'page';
+@import 'post';
 
 // Utility
 @import 'utility';

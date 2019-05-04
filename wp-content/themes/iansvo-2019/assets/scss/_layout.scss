@@ -20,5 +20,9 @@
     
     &--sm {
         @include container($screen-tablet);
+        
+        @media (min-width: $screen-xxl) {
+            max-width: calc(960px + 8rem);
+        }
     }
 }

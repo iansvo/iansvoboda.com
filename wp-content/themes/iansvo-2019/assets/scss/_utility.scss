@@ -74,3 +74,14 @@
         padding-right: 0;
     }
 }
+
+.u-circle {
+	border-radius: 100%;
+}
+
+.u-section {
+    &--dark {
+        background: $smoke;
+        color: $white;
+    }
+}

@@ -59,7 +59,7 @@
 		"oAP": "/assets/images/gravatar.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/js/scripts.min.js": {
@@ -157,6 +157,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/assets/scss/_forms.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/assets/css/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/assets/scss/_global.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -222,6 +235,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/assets/scss/_loop.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/assets/css/_loop.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/assets/scss/_normalize.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -231,6 +257,32 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/assets/css/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/assets/scss/_page.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/assets/css/_page.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/assets/scss/_post.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/assets/css/_post.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -407,14 +459,6 @@
 		"oAP": "/parts/home-work.php",
 		"oF": 0
 		},
-	"/parts/index-posts.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/parts/index-posts.php",
-		"oF": 0
-		},
 	"/parts/page-content.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -429,6 +473,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/parts/work-together.php",
+		"oF": 0
+		},
+	"/single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/single.php",
 		"oF": 0
 		},
 	"/style.css": {

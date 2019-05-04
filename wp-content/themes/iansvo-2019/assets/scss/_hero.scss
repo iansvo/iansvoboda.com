@@ -19,7 +19,9 @@
 		width: 300px;
 	}
 	
-	&_headline {		
+	&_headline {	
+    	@include interpolate(font-size, $screen-md, $screen-hd, 48px, 95px);
+    		
 		@media (min-width: $screen-tablet) {
 			grid-column: 1 / 4;
 		}

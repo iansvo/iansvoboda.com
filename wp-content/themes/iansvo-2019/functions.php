@@ -28,3 +28,7 @@ add_filter('work_show_triangle', function() {
     
     return false;
 });
+
+add_filter( 'excerpt_more', function() {
+    return "&hellip;"; 
+});

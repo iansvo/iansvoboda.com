@@ -1,0 +1,33 @@
+.c-page-content {
+    margin-bottom: 4rem;
+    
+    form {
+        font-size: .8em;
+    }
+}
+
+.c-page-header {
+    
+    &,
+    &--left,
+    &--right {        
+        text-align: center;
+        margin-bottom: 4rem;
+
+        @media (min-width: $screen-lg) {
+            margin-bottom: 8rem;
+        }
+    }
+    
+    &--left {
+        @media (min-width: $screen-lg) {
+            text-align: left;
+        }
+    }
+    
+    &--right {
+        @media (min-width: $screen-lg) {
+            text-align: right;
+        }
+    }    
+}
