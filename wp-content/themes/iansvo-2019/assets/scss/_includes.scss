@@ -96,6 +96,11 @@
 	-webkit-text-fill-color: transparent;	
 }
 
+@keyframes animated-gradient {
+    50% {
+        background: linear-gradient(to right, $seafoam, $lime)
+    }
+}
 
 // Keyframes
 @keyframes color-pulse {

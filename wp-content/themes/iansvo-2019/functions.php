@@ -32,3 +32,14 @@ add_filter('work_show_triangle', function() {
 add_filter( 'excerpt_more', function() {
     return "&hellip;"; 
 });
+
+
+add_shortcode('highlight-box', function ($atts = [], $content = null) {
+	$template =  '
+		<div class="c-highlight-box">
+			%s
+		</div>
+	';
+	
+	return sprintf($template, $content);
+});

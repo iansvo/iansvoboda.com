@@ -27,3 +27,16 @@
 		list-style: none;
 	}
 }
+
+.c-highlight-box {
+    background: $smoke;
+    color: $pink;
+    margin-bottom: 1rem;
+    padding: 1rem;
+        
+    @media (min-width: $screen-tablet) {
+        padding: 2rem;
+        transform: translate3d(-2rem, 0, 0);
+        width: calc(100% + 4rem);
+    }
+}
