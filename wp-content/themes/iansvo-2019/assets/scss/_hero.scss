@@ -17,6 +17,10 @@
 	&_image {
 		grid-column: 4 / 4;
 		width: 300px;
+		
+		@media (min-width: $screen-tablet) {
+    		width: 100%;
+		}
 	}
 	
 	&_headline {	
