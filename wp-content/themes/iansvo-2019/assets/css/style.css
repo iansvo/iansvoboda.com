@@ -1091,17 +1091,16 @@ body .main .gform_wrapper.gform_validation_error ul li.gfield, body .main .gform
   color: #fff; }
 
 .u-responsive-embed {
+  height: 0px;
+  max-width: 100%;
+  overflow: hidden;
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  height: auto; }
+  padding-top: 30px; }
   .u-responsive-embed iframe, .u-responsive-embed object, .u-responsive-embed embed {
+    height: 100%;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+    width: 100%; }
 /*# sourceMappingURL=style.css.map */
