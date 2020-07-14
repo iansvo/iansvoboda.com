@@ -30,7 +30,7 @@ wp-content/plugins/*
 wp-content/themes/*
 
 # Allow Themes
-!wp-content/themes/iansvo-2019
+!wp-content/themes/iansvo-*
 
 # wp core (as of 3.4.1)
 /db-config.php
@@ -100,3 +100,5 @@ wp-content/themes/*
 *.asf
 *.wmv
 *.avi
+*.sql
+/.nova
