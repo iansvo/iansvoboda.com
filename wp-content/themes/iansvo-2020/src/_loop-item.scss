@@ -1,0 +1,37 @@
+.c-loop-item {
+	
+	&_title {
+		
+		a {
+			color: var(--text-color);
+			
+			&:hover {
+				color: var(--secondary-color);
+			}
+		}		
+	}
+	
+	&_meta {
+		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	&_tags {
+		a:not(:last-child) {
+			margin-right: 1ch;
+		}
+	}
+	
+	&_excerpt {
+		max-width: rem-calc(900);
+		
+		:last-child {
+			margin-bottom: 0;
+		}
+	}
+	
+	.read-more {
+		white-space: nowrap;
+	}
+}

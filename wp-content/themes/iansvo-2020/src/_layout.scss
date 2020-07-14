@@ -1,0 +1,33 @@
+.l-wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	
+	@media (min-width: 960px) {
+		display: grid;
+		grid-template-columns: rem-calc(250) 1fr;
+		grid-template-areas: "header main";
+		
+		
+	}
+	
+	.c-header {
+		grid-area: header;
+	}
+	
+	@media (min-width: 1600px) {
+		grid-template-columns: rem-calc(350) 1fr;	
+	}	
+}
+
+.l-container {
+	@media (min-width: $bp-lg-min) {
+		min-width: rem-calc(640);
+		max-width: 55%;
+	}
+	
+	&--lg {
+		min-width: rem-calc(960);
+		max-width: 71%;
+	}
+}

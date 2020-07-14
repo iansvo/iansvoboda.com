@@ -1,0 +1,24 @@
+.c-pagination {
+	
+	&_link {
+		border: 2px solid currentColor;
+		color: var(--text-color);
+		display: block;
+		margin-bottom: 2rem;
+		padding: 1rem;		
+		
+		&:hover,
+		&:focus {
+			color: var(--secondary-color);
+			outline: none;
+		}
+		
+		&--next {
+			text-align: right;
+		}
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

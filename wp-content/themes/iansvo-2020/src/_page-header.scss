@@ -1,0 +1,19 @@
+.c-page-header {
+	
+	&_title {
+		margin-top: 0;
+		
+		&::after {
+			background: var(--primary-color);
+			content: '';
+			display: block;
+			height: .5rem;
+			margin-top: .25ch;
+			width: 2ch;
+		}
+	}
+	
+	:last-child {
+		margin-bottom: 0;
+	}
+}

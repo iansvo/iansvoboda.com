@@ -1,0 +1,15 @@
+@mixin heading-font-size($sm, $md, $lg) {
+	font-size: $sm;
+	
+	@media (min-width: 640px) {
+		font-size: $md;
+	}
+	
+	@media (min-width: 1600px) {
+		font-size: $lg;
+	}
+}
+
+@function rem-calc($value) {
+	@return #{$value / 16}rem;
+}

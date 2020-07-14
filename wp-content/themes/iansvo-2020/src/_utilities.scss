@@ -1,0 +1,809 @@
+$sizes: (
+	.5rem,
+	1rem,
+	1.5rem,
+	2rem,
+	3rem,
+	4rem,
+	6rem,
+	8rem
+);
+
+.m-0 {
+	margin: 0;
+}
+
+.m-auto {
+	margin: auto;
+}
+
+.mb-0 {
+	margin-bottom: 0;
+}
+
+.mb-auto {
+	margin-bottom: auto;
+}
+
+.mt-0 {
+	margin-top: 0;
+}
+
+.mt-auto {
+	margin-top: auto;
+}
+
+.mx-0 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.my-0 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.my-auto {
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.ml-0 {
+	margin-left: 0;
+}
+
+.mr-0 {
+	margin-right: 0;
+}
+
+.ml-auto {
+	margin-left: auto;
+}
+
+.mr-auto {
+	margin-right: auto;
+}
+
+.p-0 {
+	padding: 0;
+}
+
+.pb-0 {
+	padding-bottom: 0;
+}
+
+.pb-auto {
+	padding-bottom: auto;
+}
+
+.pt-0 {
+	padding-top: 0;
+}
+
+.pt-auto {
+	padding-top: auto;
+}
+
+.px-0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.px-auto {
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.py-0 {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.py-auto {
+	padding-bottom: auto;
+	padding-top: auto;
+}
+
+.pl-0 {
+	padding-left: 0;
+}
+
+.pr-0 {
+	padding-right: 0;
+}
+
+.pl-auto {
+	padding-left: auto;
+}
+
+.pr-auto {
+	padding-right: auto;
+}
+
+@for $i from 1 through length($sizes) {
+	$size: nth($sizes, $i);
+	
+	.m-#{$i} {
+		margin: $size;
+	}	
+	
+	.mb-#{$i} {
+		margin-bottom: $size;
+	}
+	
+	.mt-#{$i} {
+		margin-top: $size;
+	}	
+	
+	.ml-#{$i} {
+		margin-left: $size;
+	}
+	
+	.mr-#{$i} {
+		margin-right: $size;
+	}
+	
+	.mx-#{$i} {
+		margin-left: $size;
+		margin-right: $size;
+	}
+	
+	.my-#{$i} {
+		margin-bottom: $size;
+		margin-top: $size;
+	}
+	
+	.pb-#{$i} {
+		padding-bottom: $size;
+	}
+	
+	.pt-#{$i} {
+		padding-top: $size;
+	}	
+	
+	.pl-#{$i} {
+		padding-left: $size;
+	}
+	
+	.pr-#{$i} {
+		padding-right: $size;
+	}
+	
+	.px-#{$i} {
+		padding-left: $size;
+		padding-right: $size;
+	}
+	
+	.py-#{$i} {
+		padding-bottom: $size;
+		padding-top: $size;
+	}	
+	
+	.p-#{$i} {
+		padding: $size;
+	}					
+} 
+
+@media (max-width: $bp-sm-max) {
+	.m-0\:sm {
+		margin: 0;
+	}
+	
+	.m-auto\:sm {
+		margin: auto;
+	}
+	
+	.mb-0\:sm {
+		margin-bottom: 0;
+	}
+	
+	.mb-auto\:sm {
+		margin-bottom: auto;
+	}
+	
+	.mt-0\:sm {
+		margin-top: 0;
+	}
+	
+	.mt-auto\:sm {
+		margin-top: auto;
+	}
+	
+	.mx-0\:sm {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.mx-auto\:sm {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.my-0\:sm {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	
+	.my-auto\:sm {
+		margin-bottom: auto;
+		margin-top: auto;
+	}
+	
+	.ml-0\:sm {
+		margin-left: 0;
+	}
+	
+	.mr-0\:sm {
+		margin-right: 0;
+	}
+	
+	.ml-auto\:sm {
+		margin-left: auto;
+	}
+	
+	.mr-auto\:sm {
+		margin-right: auto;
+	}
+	
+	.p-0\:sm {
+		padding: 0;
+	}
+	
+	.pb-0\:sm {
+		padding-bottom: 0;
+	}
+	
+	.pb-auto\:sm {
+		padding-bottom: auto;
+	}
+	
+	.pt-0\:sm {
+		padding-top: 0;
+	}
+	
+	.pt-auto\:sm {
+		padding-top: auto;
+	}
+	
+	.px-0\:sm {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.px-auto\:sm {
+		padding-left: auto;
+		padding-right: auto;
+	}
+	
+	.py-0\:sm {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	
+	.py-auto\:sm {
+		padding-bottom: auto;
+		padding-top: auto;
+	}
+	
+	.pl-0\:sm {
+		padding-left: 0;
+	}
+	
+	.pr-0\:sm {
+		padding-right: 0;
+	}
+	
+	.pl-auto\:sm {
+		padding-left: auto;
+	}
+	
+	.pr-auto\:sm {
+		padding-right: auto;
+	}		
+	
+	@for $i from 1 through length($sizes) {
+		$size: nth($sizes, $i);
+		
+		.m-#{$i}\:sm {
+			margin: $size;
+		}		
+		
+		.mb-#{$i}\:sm {
+			margin-bottom: $size;
+		}
+		
+		.mt-#{$i}\:sm {
+			margin-top: $size;
+		}	
+		
+		.ml-#{$i}\:sm {
+			margin-left: $size;
+		}
+		
+		.mr-#{$i}\:sm {
+			margin-right: $size;
+		}
+		
+		.mx-#{$i}\:sm {
+			margin-left: $size;
+			margin-right: $size;
+		}
+		
+		.my-#{$i}\:sm {
+			margin-bottom: $size;
+			margin-top: $size;
+		}
+		
+		.pb-#{$i}\:sm {
+			padding-bottom: $size;
+		}
+		
+		.pt-#{$i}\:sm {
+			padding-top: $size;
+		}	
+		
+		.pl-#{$i}\:sm {
+			padding-left: $size;
+		}
+		
+		.pr-#{$i}\:sm {
+			padding-right: $size;
+		}
+		
+		.px-#{$i}\:sm {
+			padding-left: $size;
+			padding-right: $size;
+		}
+		
+		.py-#{$i}\:sm {
+			padding-bottom: $size;
+			padding-top: $size;
+		}		
+		
+		.p-#{$i}\:sm {
+			padding: $size;
+		}			
+	}	 	
+}
+
+@media (min-width: $bp-md-min) {
+	.m-0\:md {
+		margin: 0;
+	}
+	
+	.m-auto\:md {
+		margin: auto;
+	}
+	
+	.mb-0\:md {
+		margin-bottom: 0;
+	}
+	
+	.mb-auto\:md {
+		margin-bottom: auto;
+	}
+	
+	.mt-0\:md {
+		margin-top: 0;
+	}
+	
+	.mt-auto\:md {
+		margin-top: auto;
+	}
+	
+	.mx-0\:md {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.mx-auto\:md {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.my-0\:md {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	
+	.my-auto\:md {
+		margin-bottom: auto;
+		margin-top: auto;
+	}
+	
+	.ml-0\:md {
+		margin-left: 0;
+	}
+	
+	.mr-0\:md {
+		margin-right: 0;
+	}
+	
+	.ml-auto\:md {
+		margin-left: auto;
+	}
+	
+	.mr-auto\:md {
+		margin-right: auto;
+	}
+	
+	.p-0\:md {
+		padding: 0;
+	}
+	
+	.pb-0\:md {
+		padding-bottom: 0;
+	}
+	
+	.pb-auto\:md {
+		padding-bottom: auto;
+	}
+	
+	.pt-0\:md {
+		padding-top: 0;
+	}
+	
+	.pt-auto\:md {
+		padding-top: auto;
+	}
+	
+	.px-0\:md {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.px-auto\:md {
+		padding-left: auto;
+		padding-right: auto;
+	}
+	
+	.py-0\:md {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	
+	.py-auto\:md {
+		padding-bottom: auto;
+		padding-top: auto;
+	}
+	
+	.pl-0\:md {
+		padding-left: 0;
+	}
+	
+	.pr-0\:md {
+		padding-right: 0;
+	}
+	
+	.pl-auto\:md {
+		padding-left: auto;
+	}
+	
+	.pr-auto\:md {
+		padding-right: auto;
+	}	
+	
+	@for $i from 1 through length($sizes) {
+		$size: nth($sizes, $i);
+		
+		.m-#{$i}\:md {
+			margin: $size;
+		}
+		
+		.mb-#{$i}\:md {
+			margin-bottom: $size;
+		}
+		
+		.mt-#{$i}\:md {
+			margin-top: $size;
+		}	
+		
+		.ml-#{$i}\:md {
+			margin-left: $size;
+		}
+		
+		.mr-#{$i}\:md {
+			margin-right: $size;
+		}
+		
+		.mx-#{$i}\:md {
+			margin-left: $size;
+			margin-right: $size;
+		}
+		
+		.my-#{$i}\:md {
+			margin-bottom: $size;
+			margin-top: $size;
+		}
+		
+		.pb-#{$i}\:md {
+			padding-bottom: $size;
+		}
+		
+		.pt-#{$i}\:md {
+			padding-top: $size;
+		}	
+		
+		.pl-#{$i}\:md {
+			padding-left: $size;
+		}
+		
+		.pr-#{$i}\:md {
+			padding-right: $size;
+		}
+		
+		.px-#{$i}\:md {
+			padding-left: $size;
+			padding-right: $size;
+		}
+		
+		.py-#{$i}\:md {
+			padding-bottom: $size;
+			padding-top: $size;
+		}		
+		
+		.p-#{$i}\:md {
+			padding: $size;
+		}			
+	}		 
+}
+
+@media (min-width: $bp-lg-min) {
+	.m-0\:lg {
+		margin: 0;
+	}
+	
+	.m-auto\:lg {
+		margin: auto;
+	}
+	
+	.mb-0\:lg {
+		margin-bottom: 0;
+	}
+	
+	.mb-auto\:lg {
+		margin-bottom: auto;
+	}
+	
+	.mt-0\:lg {
+		margin-top: 0;
+	}
+	
+	.mt-auto\:lg {
+		margin-top: auto;
+	}
+	
+	.mx-0\:lg {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.mx-auto\:lg {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.my-0\:lg {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	
+	.my-auto\:lg {
+		margin-bottom: auto;
+		margin-top: auto;
+	}
+	
+	.ml-0\:lg {
+		margin-left: 0;
+	}
+	
+	.mr-0\:lg {
+		margin-right: 0;
+	}
+	
+	.ml-auto\:lg {
+		margin-left: auto;
+	}
+	
+	.mr-auto\:lg {
+		margin-right: auto;
+	}
+	
+	.p-0\:lg {
+		padding: 0;
+	}
+	
+	.pb-0\:lg {
+		padding-bottom: 0;
+	}
+	
+	.pb-auto\:lg {
+		padding-bottom: auto;
+	}
+	
+	.pt-0\:lg {
+		padding-top: 0;
+	}
+	
+	.pt-auto\:lg {
+		padding-top: auto;
+	}
+	
+	.px-0\:lg {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.px-auto\:lg {
+		padding-left: auto;
+		padding-right: auto;
+	}
+	
+	.py-0\:lg {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	
+	.py-auto\:lg {
+		padding-bottom: auto;
+		padding-top: auto;
+	}
+	
+	.pl-0\:lg {
+		padding-left: 0;
+	}
+	
+	.pr-0\:lg {
+		padding-right: 0;
+	}
+	
+	.pl-auto\:lg {
+		padding-left: auto;
+	}
+	
+	.pr-auto\:lg {
+		padding-right: auto;
+	}	
+	
+	@for $i from 1 through length($sizes) {
+		$size: nth($sizes, $i);
+		
+		.m-#{$i}\:lg {
+			margin: $size;
+		}		
+		
+		.mb-#{$i}\:lg {
+			margin-bottom: $size;
+		}
+		
+		.mt-#{$i}\:lg {
+			margin-top: $size;
+		}	
+		
+		.ml-#{$i}\:lg {
+			margin-left: $size;
+		}
+		
+		.mr-#{$i}\:lg {
+			margin-right: $size;
+		}
+		
+		.mx-#{$i}\:lg {
+			margin-left: $size;
+			margin-right: $size;
+		}
+		
+		.my-#{$i}\:lg {
+			margin-bottom: $size;
+			margin-top: $size;
+		}
+		
+		.pb-#{$i}\:lg {
+			padding-bottom: $size;
+		}
+		
+		.pt-#{$i}\:lg {
+			padding-top: $size;
+		}	
+		
+		.pl-#{$i}\:lg {
+			padding-left: $size;
+		}
+		
+		.pr-#{$i}\:lg {
+			padding-right: $size;
+		}
+		
+		.px-#{$i}\:lg {
+			padding-left: $size;
+			padding-right: $size;
+		}
+		
+		.py-#{$i}\:lg {
+			padding-bottom: $size;
+			padding-top: $size;
+		}	
+		
+		.p-#{$i}\:lg {
+			padding: $size;
+		}				
+	}		 
+}
+
+.title-bar {
+	&::after {
+		background: var(--primary-color);
+		content: '';
+		display: block;
+		height: .5rem;
+		margin-top: .25ch;
+		width: 2ch;
+	}	
+}
+
+.u-responsive-embed,
+.responsive-embed {
+	margin-bottom: 2rem;
+	padding-bottom: 56.25%;
+	position: relative;
+	width: 100%;
+	
+	iframe {
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+}
+
+.hide {
+	display: none;
+	
+	&--sm {
+		@media (max-width: $bp-sm-max) {
+			display: none !important;
+		}
+	}
+	
+	&--md-only {
+		@media (min-width: $bp-md-min) and (max-width: $bp-md-max) {
+			display: none !important;
+		}
+	}	
+	
+	&--md {
+		@media (min-width: $bp-md-min) {
+			display: none;
+		}
+	}
+	
+	&--lg {
+		@media (min-width: $bp-lg-min) {
+			display: none !important;
+		}
+	}	
+	
+	&--desktop {
+		@media (min-width: $header-stack-bp-min) {
+			display: none !important;
+		}
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}

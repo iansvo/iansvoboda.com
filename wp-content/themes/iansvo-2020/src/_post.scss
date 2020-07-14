@@ -1,0 +1,9 @@
+.c-post {
+	&_content {
+		
+		@media (min-width: $bp-lg-min) {			
+			max-width: 55%;
+			min-width: rem-calc(640);
+		} 
+	}
+}

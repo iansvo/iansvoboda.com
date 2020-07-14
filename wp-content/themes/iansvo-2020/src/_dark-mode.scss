@@ -1,0 +1,13 @@
+:root.dark-mode {
+	--background-color: #{$black};
+	--text-color: #{$white};
+	--primary-color: #{$pink};
+	--secondary-color: #{$teal};
+}
+
+@supports( color: $pink-p3 ) {
+	:root.dark-mode {
+		--primary-color: #{$pink-p3};
+		--secondary-color: #{$teal-p3};
+	}
+}
