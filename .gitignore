@@ -102,3 +102,4 @@ wp-content/themes/*
 *.avi
 *.sql
 /.nova
+/wp-content/themes/iansvo-2020/dist
