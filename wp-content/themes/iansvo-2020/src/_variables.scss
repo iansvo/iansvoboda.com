@@ -23,9 +23,7 @@ $black: #0a0a0a;
 $white: #f3fefe;
 
 $primary-color: $purple;
-$primary-color-p3: $purple-p3;
 $secondary-color: $blue;
-$secondary-color-p3: $blue-p3;
 $background-color: $white;
 $text-color: $black;
 
@@ -54,7 +52,7 @@ $header-stack-bp-min: 960px;
 	--blue: #{$blue};
 	--blue-p3: #{$blue-p3};
 	--purple: #{$purple};
-	--purple-p3: #{purple-p3};
+	--purple-p3: #{$purple-p3};
 	--gray-100: #{$gray-100};
 	--gray-200: #{$gray-200};
 	--gray-300: #{$gray-300};

@@ -9,6 +9,9 @@
 	</div>	
 </footer>
 </div> <!-- end .page-wrapper -->
+<script>
+	var hireMeContent = `<?= preg_replace('/<!--(.*)-->/Uis', '', get_the_content(204)); ?>`;
+</script>
 <?php wp_footer(); ?>
 </body>
 </html>

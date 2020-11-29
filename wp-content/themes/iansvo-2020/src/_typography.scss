@@ -76,6 +76,11 @@ blockquote {
 a {
 	color: var(--primary-color);
 	text-decoration: none;
+	transition: color 500ms ease-out;
+	
+	@media (prefers-reduced-motion) {
+		transition: none;
+	}
 	
 	&:hover {
 		color: var(--secondary-color);

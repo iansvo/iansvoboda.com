@@ -19,6 +19,13 @@
 				</h1>
 				<div class="c-post-meta">
 					Published on <?php the_date('F j, Y'); ?>
+					<?php 
+						$categories = get_the_category_list(', ');
+						
+						if( $categories ) {
+							echo " in $categories";
+						}
+					?>
 				</div>
 			</header>		
 			<section class="c-post_content l-container">

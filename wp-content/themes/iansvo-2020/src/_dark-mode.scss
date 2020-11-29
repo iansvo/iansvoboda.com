@@ -6,6 +6,11 @@
 }
 
 @supports( color: $pink-p3 ) {
+	:root {
+		--primary-color: #{$purple-p3};
+		--secondary-color: #{$blue-p3};		
+	}
+	
 	:root.dark-mode {
 		--primary-color: #{$pink-p3};
 		--secondary-color: #{$teal-p3};
