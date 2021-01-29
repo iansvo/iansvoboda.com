@@ -7,102 +7,28 @@
 		"uuidString": "B08029D8-7ABB-4CBB-9AEA-6EC7CDA8816C"
 		}
 	],
-"creatorBuild": "33070",
+"creatorBuild": "33081",
 "files": {
 	"/404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/404.php",
+		"oAP": "/dist/404.php",
 		"oF": 0
 		},
-	"/dist/app.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dist/app.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/dist/app.min.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/app.min.css.map",
+	"/dist": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/dist/dist",
 		"oF": 0
-		},
-	"/dist/app.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dist/app.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dist/app.min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/app.min.js.map",
-		"oF": 0
-		},
-	"/dist/blocks.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dist/blocks.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dist/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/dist/prism.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dist/prism.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dist/prism.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dist/prism.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/footer.php",
+		"oAP": "/dist/footer.php",
 		"oF": 0
 		},
 	"/functions.php": {
@@ -110,7 +36,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/functions.php",
+		"oAP": "/dist/functions.php",
 		"oF": 0
 		},
 	"/header.php": {
@@ -118,7 +44,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/header.php",
+		"oAP": "/dist/header.php",
 		"oF": 0
 		},
 	"/index.php": {
@@ -126,7 +52,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/index.php",
+		"oAP": "/dist/index.php",
 		"oF": 0
 		},
 	"/node_modules": {
@@ -138,7 +64,7 @@
 	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/package-lock-min.json",
+		"oAP": "/dist/package-lock-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -146,7 +72,7 @@
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/package-min.json",
+		"oAP": "/dist/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -156,7 +82,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/page.php",
+		"oAP": "/dist/page.php",
 		"oF": 0
 		},
 	"/parts/page-header.php": {
@@ -164,7 +90,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/parts/page-header.php",
+		"oAP": "/dist/parts/page-header.php",
 		"oF": 0
 		},
 	"/single.php": {
@@ -172,7 +98,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/single.php",
+		"oAP": "/dist/single.php",
 		"oF": 0
 		},
 	"/src/_dark-mode.scss": {
@@ -183,7 +109,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_dark-mode.css",
+		"oAP": "/dist/_dark-mode.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -196,7 +122,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_global.css",
+		"oAP": "/dist/_global.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -209,7 +135,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_header.css",
+		"oAP": "/dist/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -222,7 +148,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_includes.css",
+		"oAP": "/dist/_includes.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -235,7 +161,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_layout.css",
+		"oAP": "/dist/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -248,7 +174,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_loop-item.css",
+		"oAP": "/dist/_loop-item.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -261,7 +187,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_page-header.css",
+		"oAP": "/dist/_page-header.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -274,7 +200,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_pagination.css",
+		"oAP": "/dist/_pagination.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -287,7 +213,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_post.css",
+		"oAP": "/dist/_post.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -300,7 +226,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_theme-controls.css",
+		"oAP": "/dist/_theme-controls.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -313,7 +239,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_typography.css",
+		"oAP": "/dist/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -326,7 +252,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_utilities.css",
+		"oAP": "/dist/_utilities.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -339,7 +265,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_variables.css",
+		"oAP": "/dist/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -352,7 +278,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/_wp.css",
+		"oAP": "/dist/_wp.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -419,7 +345,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/style.css",
+		"oAP": "/dist/style.css",
 		"oF": 2,
 		"oS": 3
 		}
@@ -433,7 +359,8 @@
 	"displayValue": "iansvo-2020",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-peach",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 633233095.39229703
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -727,7 +654,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "dist",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -1839,7 +1766,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://iansvo.test",
+	"externalServerAddress": "https://iansvo.test",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2749,7 +2676,7 @@
 	"uglifyReservedNamesString": "$,exports,require",
 	"webpPresets": {
 		},
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "dist"
 	},
 "settingsFileVersion": "3"
 }
