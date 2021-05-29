@@ -57,7 +57,7 @@ add_filter('excerpt_more', function() {
 });
 
 add_action('wp_enqueue_scripts', function() {
-	wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:wght@423;550;700&display=swap');
+	// wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
 	wp_enqueue_style('app', get_theme_file_uri('dist/app.min.css'), '', filemtime(get_template_directory() . '/dist/app.min.css'));
 	wp_enqueue_script('app', get_theme_file_uri('dist/app.min.js'), '', filemtime(get_template_directory() . '/dist/app.min.js'), true);
 });
@@ -66,6 +66,13 @@ add_action('init', function() {
 	register_nav_menus([
 		'main-menu' => __('Main Menu')
 	]);
+});
+
+add_action('wp_head', function() {
+	echo '
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">	
+	';
 });
 
 function get_svg($filename) {

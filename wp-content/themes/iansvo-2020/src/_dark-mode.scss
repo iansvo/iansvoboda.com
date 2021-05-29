@@ -1,3 +1,12 @@
+@media (prefers-color-scheme: dark) {	
+	:root {
+		--background-color: #{$black};
+		--text-color: #{$white};
+		--primary-color: #{$pink};
+		--secondary-color: #{$teal};
+	}
+}
+
 :root.dark-mode {
 	--background-color: #{$black};
 	--text-color: #{$white};
@@ -5,14 +14,16 @@
 	--secondary-color: #{$teal};
 }
 
-@supports( color: $pink-p3 ) {
-	:root {
-		--primary-color: #{$purple-p3};
-		--secondary-color: #{$blue-p3};		
+@supports( color: $pink-p3 ) {	
+	@media (prefers-color-scheme: dark) {		
+		:root {
+			--primary-color: #{$pink-p3};
+			--secondary-color: #{$teal-p3};
+		}
 	}
-	
+
 	:root.dark-mode {
 		--primary-color: #{$pink-p3};
 		--secondary-color: #{$teal-p3};
-	}
+	}	
 }

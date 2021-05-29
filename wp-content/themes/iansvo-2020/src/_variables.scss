@@ -28,10 +28,11 @@ $background-color: $white;
 $text-color: $black;
 
 // Fonts
-$montserrat: 'Montserrat', sans-serif;
 $roboto-mono: 'Roboto Mono', monospace;
+$futura-pt: futura-pt, sans-serif;
+$merriweather: 'Merriweather', serifs;
 
-$body-font: $montserrat;
+$body-font: $merriweather;
 $heading-font: $roboto-mono;
 
 $bp-md-min: 768px;
@@ -62,4 +63,11 @@ $header-stack-bp-min: 960px;
 	--gray-700: #{$gray-700};
 	--gray-800: #{$gray-800};
 	--gray-900: #{$gray-900};
+}
+
+@supports( color: $pink-p3 ) {
+	:root {
+		--primary-color: #{$purple-p3};
+		--secondary-color: #{$blue-p3};		
+	}	
 }
