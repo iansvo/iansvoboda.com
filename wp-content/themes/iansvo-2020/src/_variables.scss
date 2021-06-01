@@ -28,12 +28,11 @@ $background-color: $white;
 $text-color: $black;
 
 // Fonts
-$roboto-mono: 'Roboto Mono', monospace;
-$futura-pt: futura-pt, sans-serif;
-$merriweather: 'Merriweather', serifs;
+$jost: 'Jost', sans-serif;
+$poppins: 'Poppins', sans-serif;
 
-$body-font: $merriweather;
-$heading-font: $roboto-mono;
+$body-font: $poppins;
+$heading-font: $jost;
 
 $bp-md-min: 768px;
 $bp-sm-max: $bp-md-min - 1px;
