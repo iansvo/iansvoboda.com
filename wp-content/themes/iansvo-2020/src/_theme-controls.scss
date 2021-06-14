@@ -7,5 +7,10 @@
 		box-shadow: none;
 		border: none;
 		text-transform: capitalize;
+		transition: color 200ms ease-in-out;
+		
+		&:hover {
+			color: var(--primary-color);
+		}
 	}
 }

@@ -38,7 +38,7 @@
 		</nav>
 	</div>
 	<div class="c-theme-controls mt-auto mb-3:sm mt-1:sm">
-		<button class="c-theme-controls_control" type="button" aria-pressed="false" data-setting="color-scheme" data-setting-value>
+		<button class="c-theme-controls_control button--plain" type="button" aria-pressed="false" data-setting="color-scheme" data-setting-value>
 			Enable Dark Mode
 		</button>
 	</div>		

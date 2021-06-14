@@ -13,3 +13,9 @@
 @function rem-calc($value) {
 	@return #{$value / 16}rem;
 }
+
+@mixin gradient-text($gradient) {
+	background: $gradient;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;	
+}

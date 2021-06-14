@@ -85,19 +85,25 @@
 		li {
 			margin-bottom: .5rem;
 			
-			a {
-				color: var(--text-color);
+			> a {
 				display: block;
-				font-weight: 550;
 				margin: 0 auto;
 				max-width: rem-calc(250);
-				text-decoration: none;
+				text-decoration: none;				
+				width: 100%;
+			}
+		}
+		
+		li:not(.menu-button) > a {
+			a {
+				color: var(--text-color);
+				font-weight: 500;
 				
 				&:hover,
 				&:focus {
 					color: var(--primary-color)
 				}
-			}
+			}			
 		}
 	}
 	

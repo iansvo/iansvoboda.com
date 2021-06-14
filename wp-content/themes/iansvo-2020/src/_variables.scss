@@ -22,8 +22,8 @@ $gray-900: #1a202c;
 $black: #0a0a0a;
 $white: #f3fefe;
 
-$primary-color: $purple;
-$secondary-color: $blue;
+$primary-color: $blue;
+$secondary-color: $purple;
 $background-color: $white;
 $text-color: $black;
 
@@ -39,6 +39,9 @@ $bp-sm-max: $bp-md-min - 1px;
 $bp-lg-min: 1200px;
 $bp-md-max: $bp-lg-min - 1px;
 $header-stack-bp-min: 960px;
+
+$default-gradient: linear-gradient(90deg, var(--secondary-color) 25%, var(--primary-color) 100%);
+$alternate-gradient: linear-gradient(90deg, var(--primary-color) 25%, var(--secondary-color) 100%);
 
 :root {
 	--primary-color: #{$primary-color};
@@ -62,11 +65,13 @@ $header-stack-bp-min: 960px;
 	--gray-700: #{$gray-700};
 	--gray-800: #{$gray-800};
 	--gray-900: #{$gray-900};
+	--default-gradient: #{$default-gradient};
+	--gradient-text-color: #{$white};
 }
 
 @supports( color: $pink-p3 ) {
 	:root {
-		--primary-color: #{$purple-p3};
-		--secondary-color: #{$blue-p3};		
+		--primary-color: #{$blue-p3};
+		--secondary-color: #{$purple-p3};		
 	}	
 }

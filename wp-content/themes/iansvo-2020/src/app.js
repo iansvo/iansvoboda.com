@@ -16,8 +16,11 @@
 				// Update local storage
 				localStorage.setItem('color-scheme', newTheme);
 				
+				console.log('set new theme: ' + newTheme);
+				
 				// Update site theme
 				updateTheme();
+				
 			});
 		});
 		
@@ -34,6 +37,8 @@
 			$button.innerText = `Enable ${prevTheme} Mode`;
 			$button.setAttribute('data-setting-value', newTheme);
 		});		
+		
+		console.log('update new theme: ' + newTheme);
 		
 		document.documentElement.classList.remove(`${prevTheme}-mode`);
 		document.documentElement.classList.add(`${newTheme}-mode`);
