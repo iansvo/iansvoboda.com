@@ -58,8 +58,11 @@ add_filter('excerpt_more', function() {
 
 add_action('wp_enqueue_scripts', function() {
 	// wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
-	wp_enqueue_style('app', get_theme_file_uri('dist/app.min.css'), '', filemtime(get_template_directory() . '/dist/app.min.css'));
-	wp_enqueue_script('app', get_theme_file_uri('dist/app.min.js'), '', filemtime(get_template_directory() . '/dist/app.min.js'), true);
+	
+	wp_enqueue_script('prism', get_theme_file_uri('dist/prism.min.js'), '', get_timestamp(get_template_directory() . '/dist/prism.min.js'));
+	wp_enqueue_style('prism', get_theme_file_uri('dist/prism.min.css'), '', get_timestamp(get_template_directory() . '/dist/prism.min.css'));
+	wp_enqueue_style('app', get_theme_file_uri('dist/app.min.css'), '', get_timestamp(get_template_directory() . '/dist/app.min.css'));
+	wp_enqueue_script('app', get_theme_file_uri('dist/app.min.js'), '', get_timestamp(get_template_directory() . '/dist/app.min.js'), true);
 });
 
 add_action('init', function() {
@@ -71,7 +74,7 @@ add_action('init', function() {
 add_action('wp_head', function() {
 	echo '
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Jost&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;0,900;1,400&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 	';
 });
 
@@ -129,3 +132,10 @@ add_action( 'enqueue_block_editor_assets', function () {
 		['wp-blocks', 'wp-element']
 	);
 });
+
+// check if the path exists and if so return its timestamp
+function get_timestamp($path) {
+	if( file_exists($path) ) {
+		return filemtime($path);
+	}
+}

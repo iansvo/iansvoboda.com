@@ -1,3 +1,27 @@
 .wp-caption-text {
 	font-size: .75em;
 }
+
+.wp-block-gallery {
+	--min-width: 300px;
+	
+	&.columns-3 {
+		--min-width: 225px;
+	}	
+	
+	&.columns-4 {
+		--min-width: 150px;
+	}
+
+	.blocks-gallery-grid {
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: repeat(auto-fit, minmax(var(--min-width), 1fr));
+		width: 100%;
+		
+		.blocks-gallery-item {
+			margin: 0;
+			width: 100%; 
+		}
+	}
+}
